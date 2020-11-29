@@ -1,0 +1,253 @@
+@import url('https://fonts.google.com/specimen/Cambria');
+
+header
+{
+    margin: 0;
+    background-color: rgb(46, 207, 241);
+    font-family: 'Cambria';
+    
+}
+
+body
+{
+    margin: 0;
+    background-color: rgba(163, 216, 255);
+    resize: horizontal;
+    font-family: 'Cambria';
+    overflow: auto;
+}
+
+footer
+{
+    margin: 0;
+    margin-top:100px;
+    margin-bottom: 0;
+    font-family: 'Cambria'; 
+    border-radius: 80px;
+    background-color:rgba(0, 216, 255) ;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer a{
+    font-size: .9rem;
+    margin: 0 .5rem;
+    color: #000000;
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-weight: 350;
+    font-size: 2em;  
+    text-decoration-line: underline; 
+}
+
+p, blockquote
+{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul
+{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.oldal
+{
+    height: 80px;
+    text-size-adjust: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.b1
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    color: white;
+    transition-duration: 500ms;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.b1:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: white;
+}
+
+.b2
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    color: white;
+    transition-duration: 500ms;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.b2:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: white;
+}
+
+.b3
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    color: white;
+    transition-duration: 500ms;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.b3:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: white;
+}
+
+.b4
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+    color: white;
+    transition-duration: 500ms;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.b4:hover
+{
+    background-color: rgb(80, 176, 255);
+    color: white;
+}
+
+.fejlec
+{
+    border-radius: 15px;
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kep_en{
+    border-radius: 5px;
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.be
+{
+    
+    text-align: center;
+}
+
+#lablec
+{
+    max-width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#lablec div{
+    display: inline-block;
+}
+
+.en
+{
+    max-width: 35%;
+    float: left;
+    text-decoration-line: underline;
+    margin-left: 35px;
+}
+
+.kepek_grid_racs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.kepek_grid_racs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.kepek_grid_racs .kep_kartya{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.kep_kartya .kep{
+    height: 9rem;
+    background-color: rgba(0,0,0,.05);
+    text-align: center;
+}
+
+.kep_kartya .kep img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.kep_kartya .kep img:hover{
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,.05);
+        -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,.05);
+        box-shadow: 0px 2px 12px 0px rgba(0,0,0,.05);
+}
+
+.kep_kartya p{
+    font-size: .78rem;
+    padding-top: .5rem;
+}
+
+.kep_kartya span{
+    font-size: .70rem;
+}
